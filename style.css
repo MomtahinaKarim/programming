@@ -1,0 +1,222 @@
+body
+{
+    background-size: cover;
+    font-family: Arial, Helvetica, SansSerif;
+}
+
+.header1 h1
+{
+    color: darkgreen;
+    font-family: "Berlin Sans FB";
+    font-size: 45px;
+    padding: 23px 16px 10px;
+}
+
+.topnav
+{
+    box-shadow: 3px 5px 8px rgba(160, 160, 160, 0.5);
+    width: 100%;
+    background: url("image/paper-background.jpg") no-repeat;
+    color: dimgrey;
+}
+
+ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+ul li
+{
+    float: left;
+    width: 173px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    display: block;
+
+}
+
+ul:after
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+ul li a:hover
+{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(202, 205, 200);
+}
+
+ul li ul li
+{
+    display: none;
+}
+
+ul li:hover ul li
+{
+    display: block;
+}
+
+.searchbar
+{
+    padding-bottom: 23px;
+}
+
+.searchbar input[type=search]
+{
+    height: 37px;
+    width: 350px;
+    font-size: 17px;
+    outline: none;
+    background: #f5f5f5;
+    color: #000000;
+    float: left;
+    margin-left: 17px;
+    font-weight: 500;
+}
+
+
+.searchbar button
+{
+    height: 37px;
+    border: 1px solid #c9c9c9;
+    width: 40px;
+    background: #8adf8a;
+    outline-color: green;
+}
+
+.page-content
+{
+    padding: 28px 20px 25px 16px;
+    background: #f9f9f9;
+    background-repeat: no-repeat,repeat;
+    background-blend-mode: lighten;
+}
+
+.page-content h3
+{
+    color: darkgreen;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.page-content p
+{
+    font-size: 16px;
+}
+
+.page-content button
+{
+    width: 153px;
+    height: 50px;
+    background: #21af65;
+    color: white;
+    outline:none;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+
+}
+
+.page-content button:hover
+{
+    box-shadow: 5px 3px 15px #326744;
+    transition: 500ms all linear;
+}
+
+.page-content a
+{
+    text-decoration: none;
+}
+
+.page-content a:hover
+{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.button-button-2
+{
+    padding: 5px;
+    text-align: center;
+}
+
+iframe
+{
+    margin-top: 15px;
+    width: 600px;
+    height: 250px;
+}
+
+iframe:focus
+{
+    outline: none;
+}
+
+
+iframe[seamless]
+{
+    display: block;
+}
+
+input[typeof=field]
+{
+    height: 150px;
+    width: 80px;
+}
+
+
+.container
+{
+    color: dimgrey;
+    padding: 15px;
+    margin: 0;
+}
+
+.page-footer
+{
+    background: url("image/paper-background.jpg")no-repeat;
+}
+
+.footer-icons
+{
+    font-size: 25px;
+    padding:23px 6px 12px 0;
+}
+
+.footer-icons a
+{
+    background: url("image/paper-background-img-2.jpg")no-repeat;
+    padding: 16px 15px 8px;
+}
+
+.footer-icons a:hover
+{
+    text-decoration: none;
+    color: black;
+    background: inherit;
+    transition: 600ms all linear;
+}
+
+.footer-copyright
+{
+    color: dimgrey;
+}
+
+.footer-copyright a:hover
+{
+    color: black;
+}
